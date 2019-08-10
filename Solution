@@ -1,0 +1,14 @@
+#include<stdio.h>
+int main()
+{
+int t1,t2,m=0;
+scanf("%d %d",&t1,&t2);
+t2=100-t2;
+while(t1>0)
+{
+m=m+t1;
+t1=(t2*t1)/100;
+}
+printf("%d",m);
+return 0:
+}
